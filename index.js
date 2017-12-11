@@ -5,3 +5,7 @@ var destructivelyAppendKitten = name => {
 var destructivelyPrependKitten = name => {
     return kittens.unshift(name)
 }
+
+var destructivelyRemoveLastKitten = () => {
+    return kittens.pop()
+}
