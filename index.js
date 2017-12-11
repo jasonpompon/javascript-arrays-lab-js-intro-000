@@ -13,3 +13,7 @@ var destructivelyRemoveLastKitten = () => {
 var destructivelyRemoveFirstKitten = () => {
     return kittens.shift()
 }
+
+var appendKitten = name => {
+    return [...kittens, name]
+}
